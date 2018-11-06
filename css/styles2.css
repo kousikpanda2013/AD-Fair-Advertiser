@@ -1,0 +1,202 @@
+
+/* CSS Document */
+/*-------------------------------------------------
+GLOBALS & GENERAL CASES
+-------------------------------------------------*/
+.clear {
+	clear:both;
+}
+
+/*-------------------------------------------------
+body sytles start
+-------------------------------------------------*/
+
+body {
+	background:#ffffff url(../images/bg3.jpg);
+	font-family: 'Trocchi', serif;
+	/*font-size:12px;
+	color:#9e6659;
+	/*height:100%;*/
+	line-height:20px;
+}
+.wrapper
+{
+    width: 960px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+/*-------------------------------------------------
+Logo And Menu Styles Start
+-------------------------------------------------*/
+
+.logo {
+	width:960px;
+	height:100px;
+	margin:0 auto;
+	text-align:center;
+	font-size:48px;
+	color:#aa1416;
+	clear:both;
+	line-height:150px;
+}
+.logo p
+{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: Jokerman;
+}
+    
+/*.logo p
+{
+    width: 700px;
+    height:25px;
+    line-height:20px;
+    font-size: 48px;
+    float: right;
+    padding: 0;
+    margin-right: 100px;
+}*/
+/*Header start*/
+.header {
+	width:960px;
+	height:auto;
+	text-align:center;
+	margin:0 auto;
+	clear:both;
+}
+.header h1 {
+	font-size:24px;
+	font-weight:bold;
+	color:#401f17;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.header h2 {
+	font-size:18px;
+	font-weight:bold;
+	color:#9e6659;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+.header-button {
+	width:200px;
+	height:80px;
+	background:url(../images/header-button-bg.png) no-repeat;
+	text-align:center;
+	margin:0 auto;
+}
+.header-button a {
+	font-family: 'Comic Sans MS';
+    color:#00FFFF;
+    font-size: 18px;
+    font-weight:bold;
+	text-decoration:none;
+	font-size:16px;
+	line-height:100px;
+}
+.header-button a:hover {
+	color:#c6bca5;
+	text-decoration:none;
+	font-size:16px;
+}
+
+/*Header end*/
+
+.menu
+{
+    width: 960px;
+    height: 100px;
+    background: url(../images/menu-bg.png) no-repeat;
+    margin: 0 auto;
+    text-align: center;
+    clear: both;
+}
+.menu ul {
+	list-style:none;
+	height:100px;
+	text-align:center;
+	margin:0 auto;
+}
+.menu li {
+	display:inline;
+	 
+}
+.menu li a
+{
+    font-family: 'Comic Sans MS';
+    color:#00FFFF;
+    font-size: 18px;
+    font-weight:bold;
+    text-decoration: none;
+    padding-left: 13px;
+    padding-right: 13px;
+    line-height: 130px;
+  
+}
+.menu li a:hover
+{
+    color: #FFFF00;
+}
+
+.menu li a.active {
+	color:#c6bca5;
+}
+.menu li a.selected {
+	background-position: 0 0;
+	color: #ffffff;
+}
+/*-------------------------------------------------
+Footer Styles Start
+-------------------------------------------------*/
+
+.footer {
+	width:100%;
+	height:175px;
+	margin:0 auto;
+}
+.footer img
+{
+    height:40px;
+    width:50px;
+}
+.copy-rights {
+	width:960px;
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	background:url(../images/footer-bg2.png) no-repeat;
+	color:#c6bca5;
+	margin:0 auto;
+	margin-top:10px;
+}
+.copy-rights a
+{
+    color: #CCCCCC;
+}
+.textBoxStyle
+{
+    font-size: 19px;
+    color: #FF9900;
+}
+
+/*extbox Style*/
+.textstyle
+{
+    font-size:18px;
+    color:Purple;
+}
+.textstyle2
+{
+    background-color:#FFCCFF;
+    Border-Color:#008C00;
+    Border-Style:Ridge; 
+    Font-family:Eras Medium ITC;
+    Font-Size:16px;
+    Color:#003300;
+    Height:20px; 
+    Width:220px;
+}

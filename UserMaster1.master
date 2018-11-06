@@ -1,0 +1,55 @@
+﻿<%@ Master Language="VB" CodeFile="UserMaster1.master.vb" Inherits="MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>New Registration</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="Shortcut Icon" href="css\india.ico" />
+    <link href="css/styles2.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="wrapper">
+    
+    <div class="logo"><p>AD Fair Advertisers</p>
+    </div>
+
+    <br />
+    <div class="menu">
+    <ul style="font-size: 18px;">
+      <li style="font-size: 14px";><a href="MainPageaspx.aspx">Home</a></li>
+      <li><a href="CustomerRegistration.aspx">New Registration</a></li>
+      <li><a href="AboutUs.aspx">About Us</a></li>
+      <li><a href="ContactUs.aspx">Contact Us</a></li>
+    </ul>
+  </div>
+
+  <div class="header">
+    <h2 style="font-family: Jokerman; font-size: x-large; font-weight: bold; color: #3333FF">Dont Think Too Much. Just Grab It </h2>
+  </div>
+
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    
+   <div class="footer">
+   <div style="margin-top: 30px; text-align: center">
+        &nbsp;
+        <a href="http://www.googledrive.com"><img src="images/icon/images(73).jpg" alt="" title="google drive"/></a>
+        <a href="http://www.tweeter.com"><img src="images/icon/images(76).jpg" alt="" title="tweeter" /></a>
+        <a href="http://www.skype.com"><img src="images/icon/images(75).jpg" alt="" title="Skype" /></a>
+        <a href="http://www.facebook.com"><img src="images/icon/fb-art.jpg" alt="" 
+            title="facebook" /></a>
+       </div>
+  <div class="copy-rights" style="font-weight: bold; color: #CCCCCC">Copyright 2016 © ADF #Design 
+      &amp; Maintained by || Arnab Ghosal|| Kousik Panda|| Shyamal Das|| 
+  </div>
+  </div>
+
+    </div>
+    </form>
+</body>
+</html>

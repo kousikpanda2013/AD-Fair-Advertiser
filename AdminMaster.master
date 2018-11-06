@@ -1,0 +1,67 @@
+﻿<%@ Master Language="VB" CodeFile="AdminMaster.master.vb" Inherits="MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="Shortcut Icon" href="css\LOGO 4" />
+    <link href="css/styles2.css" rel="stylesheet" type="text/css" />
+    </head>
+<body>
+    <form id="form1" runat="server">
+    <div class="wrapper">
+    
+    <div class="logo"><p style="color: #FFFFFF">AD Fair Advertisers</p>
+    </div>
+
+    <br />
+    <div class="menu">
+    <ul>
+      <li style="font-size: 12px";><a href="AdminHome.aspx">Home</a></li>
+      <li><a href="AdminRadio.aspx">Radio</a><a href="AdminTelevision.aspx">Television</a></li>
+      <li><a href="AdminNewspaper.aspx">Newspaper</a></li> 
+      <li><a href="AdminMagazine.aspx">Magazine</a></li>
+      <li><a href="AdminBanner.aspx">Banner</a></li>
+      <li><a href="AdminInternet.aspx">Website</a></li> 
+      <li><a href="AdminAgenct.aspx">Agent</a></li>      
+    </ul>
+  </div>
+
+  <div class="header">
+    <h2 style="font-family: Jokerman; font-size: x-large; font-weight: bold; color: #3333FF">Dont Think Too Much. Just Grab It </h2>
+    <!--div class="header-button"><a href="#" 
+            style="background-image: url('/templeate_test/images/Pocketicon.png')">Log Out</a> </div-->
+            <div style="text-align: right; padding-right: 50px;">
+            <asp:Label ID="AdminMaster" runat="server" Visible="False"></asp:Label>
+      <asp:ImageButton ID="ImageButton1" runat="server" Height="32px" 
+          ImageUrl="~/images/icon/Logout1.gif" Width="78px" 
+          CausesValidation="False" ToolTip="Logout" />
+            </div>
+            
+  </div><br />
+
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    
+   <div class="footer">
+   <div style="margin-top: 30px; text-align: center">
+        &nbsp;&nbsp;
+        <a href="http://www.googledrive.com"><img src="images/icon/images(73).jpg" alt="" title="google drive"/></a>
+        <a href="http://www.tweeter.com"><img src="images/icon/images(76).jpg" alt="" title="tweeter" /></a>
+        <a href="http://www.skype.com"><img src="images/icon/images(75).jpg" alt="" title="Skype" /></a>
+        <a href="http://www.facebook.com"><img src="images/icon/fb-art.jpg" alt="" 
+            title="facebook" /></a>
+       </div>
+   
+  <div class="copy-rights" style="font-weight: bold; color: #CCCCCC">Copyright © ADF #Design 
+      &amp; Maintained by || Arnab Ghosal|| Kousik Panda|| Shyamal Das||
+  </div>
+  </div>
+
+    </div>
+    </form>
+</body>
+</html>
